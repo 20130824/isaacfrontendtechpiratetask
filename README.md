@@ -5,6 +5,9 @@
 
 ## How to run this project
 
+
+https://drive.google.com/file/d/1c8pBXb8YNPbNEi0YrBQiFOHUY-sGpvnf/view?usp=sharing
+
 1. Clone this project
 2. `cd frontendtechpiratetaskisaac`
 3. `npm install`
