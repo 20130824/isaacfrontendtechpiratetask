@@ -1,5 +1,3 @@
-# File Uploads on AWS Bucket
-
 ## Description 
 In this project, I created an app using Reac JS and Node JS, in which you can select and image file of up to 1 GB in size, then that image is uploaded and stored in AWS S3. After the image is stored, it returns an URL for the image in S3 to my app, which calls and AWS lambda function triggered by an AWS API Gateway POST request, which with the given URL generates a 150x150 thumbnail of the image, stores it in a Thumbnail folder in S3 and returns an URL for the thumbnail which is displayed in my app. The code for the app is on this github repository, and the deployment package for AWS lambda can be found following this link: https://drive.google.com/file/d/1c8pBXb8YNPbNEi0YrBQiFOHUY-sGpvnf/view?usp=sharing 
 
