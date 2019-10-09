@@ -14,9 +14,15 @@ As a reference for this app I used the following boilerplate: https://github.com
 7. `cd ..`
 8. `npm run dev`
 
+## Corrections
+
+One previous limitation is the Pillow library used in Python to generate the thumbnail. By default the library only accepts images of up to 178956970 pixels, so it wasn't working with large resolution images. This limitation was solved by removing the PIL pixel size limit. Also the performance of the app was vastly improved by increasing the lambda memory size from 128 mb to 3008 MB. This noticeably reduces the execution time. The updated Deployment pack can be found here: https://isaacimagebucket.s3.us-east-2.amazonaws.com/lambda+deployment+pack.zip
+
 ## Limitations
 
-One very important limitation is the Pillow library used in Python to generate the thumbnail. The library only accepts images of up to 178956970 pixels. So it could not work with large resolution images. A workaround for this limitation would be remove the size limitation on Pillow, or utilize another library like OpenCV. Another limitation is that at the moment, the application only works with one image at a time, and it's limited to some file types, however this can be improved in future revisions. 
+A current limitatio is that at the moment, the application only works with one image at a time, and it's limited to some file types, however this can be improved in future revisions. 
+
+
 
 ## Reflection
 
