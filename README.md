@@ -14,6 +14,10 @@ As a reference for this app I used the following boilerplate: https://github.com
 7. `cd ..`
 8. `npm run dev`
 
+## Limitations
+
+One very important limitation is the Pillow library used in Python to generate the thumbnail. The library only accepts images of up to 178956970 pixels. So it could not work with large resolution images. Another limitation is that at the moment, the application only works with one image at a time, and it's limited to some file types, however this can be improved in future revisions. 
+
 ## Reflection
 
 I really enjoyed doing this task. It gave me the opportunity to learn and do different things from what I do in a daily basis, which I really appreciate. When I applied for this job I was seeking an opportunity that would challenge me and allow me to grow as a developer. I am so grateful for being given the chance to apply because during this week I was given just that. The challenge to learn, grow, and sharpen my skills.
